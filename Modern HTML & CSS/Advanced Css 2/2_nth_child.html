@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nth Child</title>
+    <style>
+      li {
+        padding: 0.25rem;
+        margin: 0.25rem;
+        list-style: none;
+      }
+
+      /* first child */
+      li:first-child {
+        background: red;
+      }
+
+      /* last child */
+      li:last-child {
+        background: red;
+      }
+
+      /* Position 3 */
+      li:nth-child(3) {
+        background: purple;
+      }
+
+      /* Every 3 */
+      li:nth-child(3n) {
+        background: orange;
+      }
+
+      /* Every 3 after 7 */
+      li:nth-child(3n + 7) {
+        background: yellow;
+      }
+
+      /* Every odd */
+      li:nth-child(odd) {
+        background: #ccc;
+      }
+
+      /* Every even */
+      li:nth-child(even) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <div class="li">Item 1</div>
+      <div class="li">Item 2</div>
+      <div class="li">Item 3</div>
+      <div class="li">Item 4</div>
+      <div class="li">Item 5</div>
+      <div class="li">Item 6</div>
+      <div class="li">Item 7</div>
+      <div class="li">Item 8</div>
+      <div class="li">Item 9</div>
+      <div class="li">Item 10</div>
+      <div class="li">Item 11</div>
+      <div class="li">Item 12</div>
+      <div class="li">Item 13</div>
+      <div class="li">Item 14</div>
+      <div class="li">Item 15</div>
+      <div class="li">Item 16</div>
+      <div class="li">Item 17</div>
+      <div class="li">Item 18</div>
+      <div class="li">Item 19</div>
+      <div class="li">Item 20</div>
+    </ul>
+  </body>
+</html>
